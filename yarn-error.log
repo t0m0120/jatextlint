@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/tomoya/.nvm/versions/node/v10.15.3/bin/node /usr/local/bin/yarn add text-lint
+
+PATH: 
+  /Users/tomoya/google-cloud-sdk/bin:/usr/local/opt/php@7.2/bin:/Users/tomoya/.fastlane/bin:/Users/tomoya/.rbenv/shims:~/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tomoya/google-cloud-sdk/bin:/usr/local/opt/php@7.2/bin:/Users/tomoya/.fastlane/bin:/Users/tomoya/.rbenv/shims:~/.rbenv/shims:/Users/tomoya/.nvm/versions/node/v10.15.3/bin:/Users/tomoya/Library/Android/sdk/emulator:/Users/tomoya/Library/Android/sdk/tools:/Users/tomoya/Library/Android/sdk/tools/bin:/Users/tomoya/Library/Android/sdk/platform-tools:/Users/tomoya/Library/Android/sdk/build-tools/28.0.2:/Users/tomoya/.composer/vendor/bin:/Users/tomoya/Library/Android/sdk/emulator:/Users/tomoya/Library/Android/sdk/tools:/Users/tomoya/Library/Android/sdk/tools/bin:/Users/tomoya/Library/Android/sdk/platform-tools:/Users/tomoya/Library/Android/sdk/build-tools/28.0.2:/Users/tomoya/.composer/vendor/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/text-lint: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:64202:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:137468:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:138440:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "jatextlint",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
